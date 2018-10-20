@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(NASALIZA.TTF);
+}
+* {
+    font-family: myFirstFont;
+}
+.clearfix {
+    background-color: #e2e2e2;
+    padding: 50px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.welcome-text {
+    float: left;
+    padding: 15px;
+}
+.welcome-forms {
+    float: right;
+}
+.nasaLogo {
+    height: 500px;
+    width: 1000px;
+
+}
